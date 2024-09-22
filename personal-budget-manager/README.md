@@ -45,7 +45,9 @@ npm run build.
 Dependencies
 
 React: Frontend framework for building the user interface.
+
 Chart.js: Used for visualizing expenses in a pie chart.
+
 react-chartjs-2: React wrapper for Chart.js to easily integrate charts in the application.
 
 Folder Structure
@@ -66,7 +68,11 @@ App.css: Styling for the application.
 Usage
 
 Adding an Expense: Fill out the expense form with the amount, date, and category, then click "Add Expense."
+
 Editing an Expense: Click the blue "Edit" button next to an expense, modify the details in the form, and save.
+
 Deleting an Expense: Click the red "Delete" button to remove an expense from the list.
+
 Viewing Expenses: All expenses are listed with the ability to edit or delete them.
+
 Checking Budget Alerts: Budget limits are set for categories like food, entertainment, and others, with alerts displayed when limits are reached.
