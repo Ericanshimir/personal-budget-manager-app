@@ -52,10 +52,15 @@ Folder Structure
 
 src/
 App.js: Main application component.
+
 ExpenseForm.js: Form for adding and editing expenses.
+
 ExpenseList.js: Component for listing and managing expenses.
+
 ExpenseSummary.js: Component for displaying a pie chart of expenses.
+
 BudgetAlerts.js: Component for displaying budget alerts.
+
 App.css: Styling for the application.
 
 Usage
