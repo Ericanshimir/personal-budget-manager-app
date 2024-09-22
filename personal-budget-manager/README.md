@@ -7,10 +7,15 @@ The Personal Budget Manager is a simple application that allows users to track t
 Features
 
 Add Expense: Users can add new expenses with details like amount, date, and category.
+
 Edit Expense: Users can edit any previously added expense.
+
 Delete Expense: Users can delete expenses that are no longer relevant.
+
 View Expense List: Users can view a list of all expenses.
+
 Expense Summary: A pie chart visually summarizes the expenses by category.
+
 Budget Alerts: Users receive alerts when nearing or exceeding the budget limit for a category.
 
 Setup Instructions
