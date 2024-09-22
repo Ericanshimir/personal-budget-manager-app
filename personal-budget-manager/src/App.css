@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #1a1a1a;
+}
+
+form, ul {
+  max-width: 700px; /* Increased the width */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.green-btn {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.green-btn:hover {
+  background-color: #425a47;
+}
+
+/* Blue Edit Button */
+.blue-btn {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.blue-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Red Delete Button */
+.red-btn {
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.red-btn:hover {
+  background-color: #c82333;
+}
+
+/* Expense List Styles */
+ul.expense-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.expense-details {
+  flex-grow: 1;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.expense-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Styling for Alerts */
+.alert {
+  color: red;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
