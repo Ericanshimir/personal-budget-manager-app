@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ericanshimir/personal-budget-manager-app.git/static/css/main.bb981594.css",
+    "main.js": "/Ericanshimir/personal-budget-manager-app.git/static/js/main.e38c6daa.js",
+    "static/js/453.e4f83acf.chunk.js": "/Ericanshimir/personal-budget-manager-app.git/static/js/453.e4f83acf.chunk.js",
+    "index.html": "/Ericanshimir/personal-budget-manager-app.git/index.html",
+    "main.bb981594.css.map": "/Ericanshimir/personal-budget-manager-app.git/static/css/main.bb981594.css.map",
+    "main.e38c6daa.js.map": "/Ericanshimir/personal-budget-manager-app.git/static/js/main.e38c6daa.js.map",
+    "453.e4f83acf.chunk.js.map": "/Ericanshimir/personal-budget-manager-app.git/static/js/453.e4f83acf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb981594.css",
+    "static/js/main.e38c6daa.js"
+  ]
+}
