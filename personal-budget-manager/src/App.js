@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from 'react';
+import React, { useReducer, useState, useEffect } from 'react';
 import ExpenseForm from './ExpenseForm';
 import ExpenseList from './ExpenseList';
 import ExpenseSummary from './ExpenseSummary';
@@ -21,13 +21,20 @@ const expenseReducer = (state, action) => {
 };
 
 const App = () => {
-  const [expenses, dispatch] = useReducer(expenseReducer, []);
+  const [expenses, dispatch] = useReducer(expenseReducer, [], () => {
+    const localData = localStorage.getItem('expenses');
+    return localData ? JSON.parse(localData) : [];
+  });
   const [editingExpense, setEditingExpense] = useState(null);
   const [budgetLimits] = useState({
     food: 200,
     entertainment: 150,
     others: 300,
   });
+
+  useEffect(() => {
+    localStorage.setItem('expenses', JSON.stringify(expenses));
+  }, [expenses]);
 
   return (
     <div className="container">
